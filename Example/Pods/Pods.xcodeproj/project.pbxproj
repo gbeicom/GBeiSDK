@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00995BC6C47366D0FECD3C635CE28EAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1349C3366146608043C409D6D1642E12 /* GBeiSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DCD9936D680EFDE0E1C8D8BE5F8F25 /* GBeiSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13C08F322B9C81BD9EB3C23E4BC5B454 /* GBeiSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 21213297432B395D20C426C375B712C5 /* GBeiSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F07F142679A67F013A0E4B0A6A54AD /* GBOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = F310D04A674A703681E28433719484D9 /* GBOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39682DC993333BF6197CC6D5274C4087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3B60A0DD238B5B011036F0FBD022D267 /* GBOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B32969D308E28B8EE05605DECBEA7682 /* GBOAuth.m */; };
+		56974D1EA8B2E1C5B899C77427A3F4E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6A87A70EE5E31F44EBE2D96ABA54F2B8 /* Pods-GBeiSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B20CB9AF3083B1C5721B211ADA94C37 /* Pods-GBeiSDK_Tests-dummy.m */; };
+		810B91E796E9FFB76640BE32559716CD /* Pods-GBeiSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCE761B8F93C52D9C4B6AEED0CBD85B /* Pods-GBeiSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBA016F63926AC20EB60E2396507C64 /* GBeiSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803D682842CBB349F4309147F5FAF11 /* GBeiSDK-dummy.m */; };
+		A4DD238A8A3E3E6724C9F83E95059430 /* Pods-GBeiSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2890767716B97D8A498F7386B1CA27D8 /* Pods-GBeiSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C328DEE48D820CEA1490AB4E905C027F /* Pods-GBeiSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4848A010C2EC375C3CB2026D8AC249CE /* Pods-GBeiSDK_Example-dummy.m */; };
+		F8E79FE2C2A1F69BD086AD8FABFB1634 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABD88D9224A3096639687D01826C481 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1C6BC2F0FE58244C492DBE6BCB87E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E62DCFD352738AFCA297FC279B8CF6E;
+			remoteInfo = GBeiSDK;
+		};
+		A5AC5E079FB35337F804108228833DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F595FF3A4CCB9816AAA2FC18477004BE;
+			remoteInfo = "Pods-GBeiSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0803D682842CBB349F4309147F5FAF11 /* GBeiSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBeiSDK-dummy.m"; sourceTree = "<group>"; };
+		0CCE761B8F93C52D9C4B6AEED0CBD85B /* Pods-GBeiSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBeiSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0DEDD0039FE9B50A70F55F41DB997B7C /* Pods-GBeiSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GBeiSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		21213297432B395D20C426C375B712C5 /* GBeiSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBeiSDK.h; path = GBeiSDK/Classes/GBeiSDK.h; sourceTree = "<group>"; };
+		253B0B4E72B18217653887B9758183E9 /* Pods-GBeiSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBeiSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		25E7FC60B081A314EAA67A07FF3354A6 /* Pods_GBeiSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBeiSDK_Example.framework; path = "Pods-GBeiSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2890767716B97D8A498F7386B1CA27D8 /* Pods-GBeiSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GBeiSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BDF710FEE238C1EC7C0EB9272940D80 /* GBeiSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBeiSDK.xcconfig; sourceTree = "<group>"; };
+		4218B4C8F04BF52DAC6BCFE5A8F7D1AE /* GBeiSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBeiSDK-prefix.pch"; sourceTree = "<group>"; };
+		4848A010C2EC375C3CB2026D8AC249CE /* Pods-GBeiSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBeiSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		4ABD88D9224A3096639687D01826C481 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GBeiSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6350D12694A383A02B0011DA9E914FE6 /* GBeiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBeiSDK.framework; path = GBeiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641BEF3534BD60490DB094D5EACA855D /* Pods-GBeiSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBeiSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7912CD542C3232E8CD45B6E05D687FBA /* Pods-GBeiSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBeiSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B20CB9AF3083B1C5721B211ADA94C37 /* Pods-GBeiSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GBeiSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		968E0E63F914466A78995C2BC940A5BD /* Pods-GBeiSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBeiSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F28F7C226B9E4CE74F87663EFE2B8B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B32969D308E28B8EE05605DECBEA7682 /* GBOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBOAuth.m; path = GBeiSDK/Classes/GBOAuth.m; sourceTree = "<group>"; };
+		B459D50E8284D06224E061286F44E6DD /* Pods-GBeiSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBeiSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B5FD88AD23BCA48D6FB6872F0AC425F1 /* Pods-GBeiSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GBeiSDK_Example.modulemap"; sourceTree = "<group>"; };
+		C07E908A0A1FE55C180EBB20DF9B0D40 /* Pods-GBeiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBeiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C15DB4F491EE26622B2FC811F6467836 /* Pods-GBeiSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBeiSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		C239D26CC5E6F05720AC2E0645853527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D1304EC181094A3AA6D0DAFA1B9AB275 /* Pods_GBeiSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GBeiSDK_Tests.framework; path = "Pods-GBeiSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D741B4E1C22038FA135519F814BB6F02 /* Pods-GBeiSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GBeiSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8850DEF7D2EF88C7745E6180882A4C9 /* Pods-GBeiSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBeiSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8CB057D057041EB257F290DC74946AE /* GBeiSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GBeiSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3DCD9936D680EFDE0E1C8D8BE5F8F25 /* GBeiSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBeiSDK-umbrella.h"; sourceTree = "<group>"; };
+		E84B3362F87B5E2845396F80F4A81F66 /* Pods-GBeiSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GBeiSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		EEA529AE7270F38E63A0E2791E177040 /* GBeiSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBeiSDK.modulemap; sourceTree = "<group>"; };
+		F310D04A674A703681E28433719484D9 /* GBOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBOAuth.h; path = GBeiSDK/Classes/GBOAuth.h; sourceTree = "<group>"; };
+		F628C1A04834F509DD8D2C248CC82CCF /* Pods-GBeiSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GBeiSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC78691AE23C13214B1EE5B3CA6320DC /* GBeiSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBeiSDK-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DDEFA915D56E84A662733323F5B91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56974D1EA8B2E1C5B899C77427A3F4E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FD3F308CA73763AB1BEE4A21E3A767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39682DC993333BF6197CC6D5274C4087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436E3B074DCA4C88F7700A6E1E2FF152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00995BC6C47366D0FECD3C635CE28EAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B5B90C373642EC6C1DFAA45ECF0D8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB258B4BB16F3E178100A4903491FEC /* GBeiSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52258195D6032E93FFDDC2EE4D40A31A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFACC1D7E1B8078F9D121B8042F58E71 /* Pods-GBeiSDK_Example */,
+				B2C163DC0649EF324260DE6C93185E39 /* Pods-GBeiSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FAE8BF9FDCE97E91AB6D3ADEBB93723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6350D12694A383A02B0011DA9E914FE6 /* GBeiSDK.framework */,
+				25E7FC60B081A314EAA67A07FF3354A6 /* Pods_GBeiSDK_Example.framework */,
+				D1304EC181094A3AA6D0DAFA1B9AB275 /* Pods_GBeiSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFC3D43242348C5F79CFBD29D015E1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEA529AE7270F38E63A0E2791E177040 /* GBeiSDK.modulemap */,
+				3BDF710FEE238C1EC7C0EB9272940D80 /* GBeiSDK.xcconfig */,
+				0803D682842CBB349F4309147F5FAF11 /* GBeiSDK-dummy.m */,
+				FC78691AE23C13214B1EE5B3CA6320DC /* GBeiSDK-Info.plist */,
+				4218B4C8F04BF52DAC6BCFE5A8F7D1AE /* GBeiSDK-prefix.pch */,
+				E3DCD9936D680EFDE0E1C8D8BE5F8F25 /* GBeiSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GBeiSDK";
+			sourceTree = "<group>";
+		};
+		B2C163DC0649EF324260DE6C93185E39 /* Pods-GBeiSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				968E0E63F914466A78995C2BC940A5BD /* Pods-GBeiSDK_Tests.modulemap */,
+				641BEF3534BD60490DB094D5EACA855D /* Pods-GBeiSDK_Tests-acknowledgements.markdown */,
+				7912CD542C3232E8CD45B6E05D687FBA /* Pods-GBeiSDK_Tests-acknowledgements.plist */,
+				7B20CB9AF3083B1C5721B211ADA94C37 /* Pods-GBeiSDK_Tests-dummy.m */,
+				E84B3362F87B5E2845396F80F4A81F66 /* Pods-GBeiSDK_Tests-Info.plist */,
+				0CCE761B8F93C52D9C4B6AEED0CBD85B /* Pods-GBeiSDK_Tests-umbrella.h */,
+				F628C1A04834F509DD8D2C248CC82CCF /* Pods-GBeiSDK_Tests.debug.xcconfig */,
+				B459D50E8284D06224E061286F44E6DD /* Pods-GBeiSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-GBeiSDK_Tests";
+			path = "Target Support Files/Pods-GBeiSDK_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBB258B4BB16F3E178100A4903491FEC /* GBeiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				21213297432B395D20C426C375B712C5 /* GBeiSDK.h */,
+				F310D04A674A703681E28433719484D9 /* GBOAuth.h */,
+				B32969D308E28B8EE05605DECBEA7682 /* GBOAuth.m */,
+				4ABD88D9224A3096639687D01826C481 /* ReplaceMe.m */,
+				E7711514EB6E01FDC92F4F32601B8598 /* Pod */,
+				6EFC3D43242348C5F79CFBD29D015E1B /* Support Files */,
+			);
+			name = GBeiSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				45B5B90C373642EC6C1DFAA45ECF0D8D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5FAE8BF9FDCE97E91AB6D3ADEBB93723 /* Products */,
+				52258195D6032E93FFDDC2EE4D40A31A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFACC1D7E1B8078F9D121B8042F58E71 /* Pods-GBeiSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B5FD88AD23BCA48D6FB6872F0AC425F1 /* Pods-GBeiSDK_Example.modulemap */,
+				D741B4E1C22038FA135519F814BB6F02 /* Pods-GBeiSDK_Example-acknowledgements.markdown */,
+				D8850DEF7D2EF88C7745E6180882A4C9 /* Pods-GBeiSDK_Example-acknowledgements.plist */,
+				4848A010C2EC375C3CB2026D8AC249CE /* Pods-GBeiSDK_Example-dummy.m */,
+				0DEDD0039FE9B50A70F55F41DB997B7C /* Pods-GBeiSDK_Example-frameworks.sh */,
+				C15DB4F491EE26622B2FC811F6467836 /* Pods-GBeiSDK_Example-Info.plist */,
+				2890767716B97D8A498F7386B1CA27D8 /* Pods-GBeiSDK_Example-umbrella.h */,
+				253B0B4E72B18217653887B9758183E9 /* Pods-GBeiSDK_Example.debug.xcconfig */,
+				C07E908A0A1FE55C180EBB20DF9B0D40 /* Pods-GBeiSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-GBeiSDK_Example";
+			path = "Target Support Files/Pods-GBeiSDK_Example";
+			sourceTree = "<group>";
+		};
+		E7711514EB6E01FDC92F4F32601B8598 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D8CB057D057041EB257F290DC74946AE /* GBeiSDK.podspec */,
+				9F28F7C226B9E4CE74F87663EFE2B8B7 /* LICENSE */,
+				C239D26CC5E6F05720AC2E0645853527 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DA1FE1517554B9256F46A368E1870E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349C3366146608043C409D6D1642E12 /* GBeiSDK-umbrella.h in Headers */,
+				13C08F322B9C81BD9EB3C23E4BC5B454 /* GBeiSDK.h in Headers */,
+				18F07F142679A67F013A0E4B0A6A54AD /* GBOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10966504E20BD7DA6DFED1F29E30D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DD238A8A3E3E6724C9F83E95059430 /* Pods-GBeiSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3BEB35EAF0D0F57CFE213A792E51E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810B91E796E9FFB76640BE32559716CD /* Pods-GBeiSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E62DCFD352738AFCA297FC279B8CF6E /* GBeiSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64C97D4CDCA51A77905E2387AFA8D1 /* Build configuration list for PBXNativeTarget "GBeiSDK" */;
+			buildPhases = (
+				0DA1FE1517554B9256F46A368E1870E3 /* Headers */,
+				C84F00CC2044F6168CB4AC75C1FC9B5F /* Sources */,
+				22DDEFA915D56E84A662733323F5B91E /* Frameworks */,
+				16DE6D6A6A42726D1404E4A67DF37C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBeiSDK;
+			productName = GBeiSDK;
+			productReference = 6350D12694A383A02B0011DA9E914FE6 /* GBeiSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF2832821D9A63415655E2F6A132B5BD /* Pods-GBeiSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1537FFD02CA5208CD31490B257A8577 /* Build configuration list for PBXNativeTarget "Pods-GBeiSDK_Tests" */;
+			buildPhases = (
+				FF3BEB35EAF0D0F57CFE213A792E51E9 /* Headers */,
+				721C2ABB1EF34DE7484F3D67EAA019A5 /* Sources */,
+				33FD3F308CA73763AB1BEE4A21E3A767 /* Frameworks */,
+				9F9B7A486D9865472E301399227D2155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF51755A7CFFF39C3EC113D1DF1CF51F /* PBXTargetDependency */,
+			);
+			name = "Pods-GBeiSDK_Tests";
+			productName = "Pods-GBeiSDK_Tests";
+			productReference = D1304EC181094A3AA6D0DAFA1B9AB275 /* Pods_GBeiSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F595FF3A4CCB9816AAA2FC18477004BE /* Pods-GBeiSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE5C5ECA4635D17BAE94FCF94A1950D /* Build configuration list for PBXNativeTarget "Pods-GBeiSDK_Example" */;
+			buildPhases = (
+				F10966504E20BD7DA6DFED1F29E30D8E /* Headers */,
+				E48D6282856C769CE2DAB2191C8B7CC9 /* Sources */,
+				436E3B074DCA4C88F7700A6E1E2FF152 /* Frameworks */,
+				6829231CFD68401241668540A4F54865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D8176CF3B9028B4741D8E13ED3164C /* PBXTargetDependency */,
+			);
+			name = "Pods-GBeiSDK_Example";
+			productName = "Pods-GBeiSDK_Example";
+			productReference = 25E7FC60B081A314EAA67A07FF3354A6 /* Pods_GBeiSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5FAE8BF9FDCE97E91AB6D3ADEBB93723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E62DCFD352738AFCA297FC279B8CF6E /* GBeiSDK */,
+				F595FF3A4CCB9816AAA2FC18477004BE /* Pods-GBeiSDK_Example */,
+				EF2832821D9A63415655E2F6A132B5BD /* Pods-GBeiSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DE6D6A6A42726D1404E4A67DF37C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6829231CFD68401241668540A4F54865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9B7A486D9865472E301399227D2155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721C2ABB1EF34DE7484F3D67EAA019A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A87A70EE5E31F44EBE2D96ABA54F2B8 /* Pods-GBeiSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84F00CC2044F6168CB4AC75C1FC9B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBA016F63926AC20EB60E2396507C64 /* GBeiSDK-dummy.m in Sources */,
+				3B60A0DD238B5B011036F0FBD022D267 /* GBOAuth.m in Sources */,
+				F8E79FE2C2A1F69BD086AD8FABFB1634 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48D6282856C769CE2DAB2191C8B7CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328DEE48D820CEA1490AB4E905C027F /* Pods-GBeiSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D8176CF3B9028B4741D8E13ED3164C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBeiSDK;
+			target = 7E62DCFD352738AFCA297FC279B8CF6E /* GBeiSDK */;
+			targetProxy = 3F1C6BC2F0FE58244C492DBE6BCB87E3 /* PBXContainerItemProxy */;
+		};
+		AF51755A7CFFF39C3EC113D1DF1CF51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GBeiSDK_Example";
+			target = F595FF3A4CCB9816AAA2FC18477004BE /* Pods-GBeiSDK_Example */;
+			targetProxy = A5AC5E079FB35337F804108228833DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B5466F1D1BA878C14C89C998EC0DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07E908A0A1FE55C180EBB20DF9B0D40 /* Pods-GBeiSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBeiSDK_Example/Pods-GBeiSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBeiSDK_Example/Pods-GBeiSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17BA353E38019749B142DF2BB5F06D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B459D50E8284D06224E061286F44E6DD /* Pods-GBeiSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBeiSDK_Tests/Pods-GBeiSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBeiSDK_Tests/Pods-GBeiSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		961723B3FB96C89A57DFE4E765B33068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253B0B4E72B18217653887B9758183E9 /* Pods-GBeiSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBeiSDK_Example/Pods-GBeiSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBeiSDK_Example/Pods-GBeiSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0283DA77B49D99CD51A98C7488F44A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F628C1A04834F509DD8D2C248CC82CCF /* Pods-GBeiSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GBeiSDK_Tests/Pods-GBeiSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GBeiSDK_Tests/Pods-GBeiSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFB8DA1A92E3AE628DBE47FF2D52FAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDF710FEE238C1EC7C0EB9272940D80 /* GBeiSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GBeiSDK/GBeiSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBeiSDK/GBeiSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBeiSDK/GBeiSDK.modulemap";
+				PRODUCT_MODULE_NAME = GBeiSDK;
+				PRODUCT_NAME = GBeiSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5690F5A011F46CB7646924936779CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDF710FEE238C1EC7C0EB9272940D80 /* GBeiSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GBeiSDK/GBeiSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBeiSDK/GBeiSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBeiSDK/GBeiSDK.modulemap";
+				PRODUCT_MODULE_NAME = GBeiSDK;
+				PRODUCT_NAME = GBeiSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C64C97D4CDCA51A77905E2387AFA8D1 /* Build configuration list for PBXNativeTarget "GBeiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5690F5A011F46CB7646924936779CB5 /* Debug */,
+				BFB8DA1A92E3AE628DBE47FF2D52FAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE5C5ECA4635D17BAE94FCF94A1950D /* Build configuration list for PBXNativeTarget "Pods-GBeiSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961723B3FB96C89A57DFE4E765B33068 /* Debug */,
+				01B5466F1D1BA878C14C89C998EC0DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1537FFD02CA5208CD31490B257A8577 /* Build configuration list for PBXNativeTarget "Pods-GBeiSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0283DA77B49D99CD51A98C7488F44A4 /* Debug */,
+				17BA353E38019749B142DF2BB5F06D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

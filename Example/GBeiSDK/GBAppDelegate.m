@@ -7,11 +7,19 @@
 //
 
 #import "GBAppDelegate.h"
+#import <GBeiSDK/GBeiSDK.h>
+
+//京贝尔授权key
+#define GBAPPID @"appid"
+#define GBAPPKEY @"appkey"
+
 
 @implementation GBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[GBOAuth shared] setupAccountWithappID:GBAPPID appKey:GBAPPKEY];
+
     // Override point for customization after application launch.
     return YES;
 }
@@ -42,5 +50,17 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+///  只用IOS9 以上
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    
+     if ([GBOAuth handleOpenURL:url] ) {
+        return YES;
+    }
+    
+    return YES;
+}
+
+
 
 @end

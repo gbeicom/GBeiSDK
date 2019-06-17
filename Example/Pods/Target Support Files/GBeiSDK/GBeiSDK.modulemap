@@ -1,0 +1,6 @@
+framework module GBeiSDK {
+  umbrella header "GBeiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
