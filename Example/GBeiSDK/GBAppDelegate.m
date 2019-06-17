@@ -20,7 +20,6 @@
 {
     [[GBOAuth shared] setupAccountWithappID:GBAPPID appKey:GBAPPKEY];
 
-    // Override point for customization after application launch.
     return YES;
 }
 
